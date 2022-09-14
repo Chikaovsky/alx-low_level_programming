@@ -1,7 +1,3 @@
-/*
- * File: 0-positive_or_negative.c
- * Auth: Keenmuhammd
- */
 #include "main.h"
 /**
  * print_alphabet -This program prints
