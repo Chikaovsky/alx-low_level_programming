@@ -1,20 +1,21 @@
+/*
+ * File: 0-putchar.c
+ * Auth: Keenmuhammd
+ */
 #include "main.h"
 /**
-*main - Entry point
- *
- * Return: Always returns 0
- *
+ * main - This code prints _putchar
+ * Return: 0 on success
  */
 int main(void)
 {
-	_putchar('_');
-	_putchar('p');
-	_putchar('u');
-	_putchar('t');
-	_putchar('c');
-	_putchar('h');
-	_putchar('a');
-	_putchar('r');
+	char c[] = "_putchar";
+	int i;
+
+	for (i = 0; i < 8; i++)
+	{
+		_putchar(c[i]);
+	}
 	_putchar('\n');
 	return (0);
 }
