@@ -1,2 +1,2 @@
 #ifndef MAIN_H
-#include "main.h"
+#define MAIN_H
