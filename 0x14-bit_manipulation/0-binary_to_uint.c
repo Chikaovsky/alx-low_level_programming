@@ -9,7 +9,8 @@ unsigned int binary_to_uint(const char *b)
 {
 int base = 1, i = 0, length = 0;
 unsigned int result = 0;
-if (b == NULL)
+
+	if (b == NULL)
 		return (0);
 	while (b[length] != '\0')
 	{
@@ -27,6 +28,7 @@ if (b == NULL)
 		}
 		else
 			return (0);
-}
+
+	}
 		return (result);
 }
